@@ -1,0 +1,97 @@
+:root {
+   // Common colors
+   $black-color: #000000;
+   $white-color: #ffffff;
+   $border-color: #303241;
+
+   // Sidebar colors
+   $sidebar-logo-bg-color: #0051bb;
+   $sidebar-bg-color: #15161a;
+   $sidebar-title-color: rgb(168, 168, 168);
+   $sidebar-link-bg-color: #15161a;
+   $sidebar-link-active-bg-color: #0051bb;
+   $sidebar-link-hover-bg-color: #303241;
+
+   // Header colors
+   $header-bg-color: #15161a;
+
+   // Main colors
+   $main-bg-color: #191a1f;
+}
+
+[data-theme="light"] {
+   $sidebar-bg-color: #ffffff;
+   $sidebar-txt-color: #000000;
+   $sidebar-txt-active-color: #ffffff;
+   $sidebar-link-color: #ffffff;
+   $sidebar-link-active-color: #000000;
+}
+
+// ** Black Theme
+// // Common colors
+// $black-color: #000000;
+// $white-color: #ffffff;
+// $border-color: #303241;
+
+// // Sidebar colors
+// $sidebar-logo-bg-color: #0051bb;
+// $sidebar-bg-color: #15161a;
+// $sidebar-title-color: rgb(168, 168, 168);
+// $sidebar-link-bg-color: #15161a;
+// $sidebar-link-active-bg-color: #0051bb;
+// $sidebar-link-hover-bg-color: #303241;
+
+// // Header colors
+// $header-bg-color: #15161a;
+
+// // Main colors
+// $main-bg-color: #191a1f;
+
+
+// ** Light Theme
+// Common colors
+$black-color: #000000;
+$white-color: #ffffff;
+$border-color: #c1c1c1;
+
+// Wrapper colors
+$wrapper-bg-color: #cae0fc;
+$wrapper-text-color: black;
+
+// Layout colors
+$layout-bg-color: #cae0fc;
+
+
+// Main colors
+$main-bg-color: #e2e2e2;
+// $main-bg-color: #171E31;
+$main-text-color: black;
+
+// Sidebar colors
+$sidebar-logo-bg-color: #2c66db;
+$sidebar-bg-color: #0051bb;
+$sidebar-bg-color: #0F1729;
+$sidebar-title-color: white;
+$sidebar-link-bg-color: #0051bb;
+$sidebar-link-bg-color: #0F1729;
+$sidebar-link-active-bg-color: #2c66db;
+$sidebar-link-hover-bg-color: #2c66db;
+$sidebar-decor-color: #2c66db;
+
+// Header colors
+$header-bg-color: #FFFFFF;
+// $header-bg-color: #1c2f6b;
+$header-text-color: black;
+
+
+
+
+
+$blue-color: #2774da;
+
+$dark-300-color: #15161a;
+$dark-200-color: #1e1f25;
+$dark-100-color: #303241;
+
+$green-color: #18890e;
+$red-color: #b91a1a;

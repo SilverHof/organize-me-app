@@ -1,0 +1,28 @@
+@import "../../../../scss/config/settings";
+
+.workspace-settings {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      background-color: $dark-200-color;
+      padding: 5px;
+      border-radius: 5px;
+
+      &:hover {
+         background-color: $dark-100-color;
+      }
+   }
+
+   &__button-image {
+      display: block;
+
+      width: 25px;
+      height: 25px;
+   }
+}

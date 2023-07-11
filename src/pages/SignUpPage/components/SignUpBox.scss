@@ -1,0 +1,135 @@
+@import "../../../scss/variables";
+
+.signup-box {
+   width: 50%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+
+
+   &__title {
+      display: flex;
+   }
+
+   &__title-left {
+      font-size: 40px;
+      font-weight: 600;
+
+      color: $white-color;
+   }
+
+   &__title-right {
+      font-size: 40px;
+      font-weight: 600;
+
+      color: $blue-color;
+   }
+
+   &__body {
+      display: flex;
+      flex-direction: column;
+
+      width: 350px;
+      padding: 25px;
+      background-color: $blue-color;
+      border-radius: 10px;
+
+      color: $white-color;
+   }
+
+   &__subtitle {
+      align-self: center;
+
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   &__form {
+      display: flex;
+      flex-direction: column;
+      // gap: 20px;
+
+      margin-top: 30px;
+   }
+
+   &__inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      margin-bottom: 20px;
+   }
+
+   &__input-email {
+      height: 35px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: $white-color;
+      color: $black-color;      
+   }
+
+   &__input-password {
+      height: 35px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: $white-color;
+      color: $black-color;         
+   }
+
+   &__input-repeat-password {
+      height: 35px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: $white-color;
+      color: $black-color;
+   }
+
+   &__button-continue {
+      padding: 5px 0px;
+      border-radius: 5px;
+      background-color: $green-color;
+      color: $white-color;
+      font-weight: 500;
+   }
+
+   &__else {
+      align-self: center;
+
+      margin: 15px 0px;
+   }
+
+   &__another-enter-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   &__another-button {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 10px;
+
+      padding: 5px 50px;
+      border-radius: 5px;
+      background-color: $white-color;
+      color: $black-color;
+   }
+
+   &__another-button-image {
+      width: 25px;
+      height: 25px;
+   }
+
+   &__login-link {
+      align-self: center;
+      margin-top: 20px;
+      font-size: 14px;
+      &:visited {
+         color: $white-color;
+      }
+   }
+}

@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+
+.footer {
+   height: 50px;
+   background-color: $dark-200-color;
+
+   padding: 0px 15px;
+
+   &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      height: 100%;
+   }
+}

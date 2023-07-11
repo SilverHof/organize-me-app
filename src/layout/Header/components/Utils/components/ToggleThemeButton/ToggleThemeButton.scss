@@ -1,0 +1,14 @@
+@import "../../../../../../scss/variables";
+
+.toggle-theme-button {
+   display: flex;
+   align-items: center;
+
+   padding: 10px 0px 10px 10px;
+   background-color: $header-bg-color;
+
+   &__image {
+      width: 20px;
+      height: 20px;
+   }
+}

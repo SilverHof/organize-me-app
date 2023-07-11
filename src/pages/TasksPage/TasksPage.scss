@@ -1,0 +1,19 @@
+@import "../../scss/variables";
+
+.tasks-page {
+   
+   &__inner {
+      // padding: 15px 10px;
+   }
+
+   &__create-column-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 15px;
+      border-radius: 10px;
+
+      background-color: black;
+      color: $white-color;
+   }
+}

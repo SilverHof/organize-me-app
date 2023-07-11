@@ -1,0 +1,21 @@
+@import "../../../scss/variables";
+
+.login-image-box {
+   width: 50%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background-color: $white-color;
+
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+
+   &__image {
+      display: block;
+
+      width: auto;
+      height: 100vh;
+   }
+}

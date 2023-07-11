@@ -1,0 +1,50 @@
+@import "../../../../scss/variables";
+
+.logo {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 10px;
+
+   margin-bottom: 15px;
+
+   &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 36px;
+      height: 36px;
+      background-color: $sidebar-logo-bg-color;
+      border-radius: 5px;
+   }
+
+   &__button-image {
+      display: block;
+      width: 20px;
+      height: 20px;
+   }
+
+
+   &__title {
+      display: block;
+
+      &_short {
+         display: none;
+      }
+   }
+
+   &__title-left {
+      font-size: 20px;
+      font-weight: 900;
+
+      color: $sidebar-title-color;
+   }
+
+   &__title-right {
+      font-size: 20px;
+      font-weight: 900;
+
+      color: $sidebar-title-color;
+   }
+}

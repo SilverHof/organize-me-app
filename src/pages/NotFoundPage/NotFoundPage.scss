@@ -1,0 +1,57 @@
+@import '../../scss/variables';
+
+.not-found-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   font-family: "Roboto Mono";
+
+   height: 100vh;
+   width: 100vw;
+
+   &__left-box {
+      width: 50%;
+      height: 100vh;
+
+      background-color: $blue-color;
+      clip-path: polygon(0 0, 0% 100%, 100% 0);
+   }
+
+   &__center-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 100%;
+   }
+
+   &__right-box {
+      width: 50%;
+      height: 100vh;
+
+      background-color: $dark-300-color;
+      clip-path: polygon(100% 100%, 0% 100%, 100% 0); 
+   }
+
+   &__title {
+      font-size: 32px;
+      font-weight: 900;
+      color: $dark-100-color; 
+   }
+
+   &__image {
+      width: 600px;
+      height: auto;
+   }
+
+   &__back-link {
+      font-size: 20px;
+      color: $blue-color;
+
+      &:visited {
+         color: $blue-color;
+      }
+   }
+
+}
